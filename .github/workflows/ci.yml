@@ -120,7 +120,7 @@ jobs:
           cat > go.mod <<EOF
           module example.com/reynard
           go 1.27
-          require github.com/robotraconteur/robotraconteur_go v0.1.0
+          require github.com/robotraconteur/robotraconteur_go v0.1.1
           replace github.com/robotraconteur/robotraconteur_go => ../robotraconteur_go
           EOF
           sed -i 's#github.com/robotraconteur/robotraconteur_go/examples/reynard_the_robot#example.com/reynard#g' \
@@ -175,7 +175,7 @@ jobs:
           cat > go.mod <<EOF
           module example.com/reynard
           go 1.27
-          require github.com/robotraconteur/robotraconteur_go v0.1.0
+          require github.com/robotraconteur/robotraconteur_go v0.1.1
           replace github.com/robotraconteur/robotraconteur_go => ../robotraconteur_go
           EOF
           sed -i 's#github.com/robotraconteur/robotraconteur_go/examples/reynard_the_robot#example.com/reynard#g' \

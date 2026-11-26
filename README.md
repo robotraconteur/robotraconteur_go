@@ -15,7 +15,7 @@ and a hand-written Go runtime on top of it provides an idiomatic API.
 generates Go packages from `.robdef` files. It uses the core's robdef parser
 and verifier, so it accepts exactly what the other generators accept.
 
-Version 0.1.0, for Robot Raconteur 1.3. Supported platforms: Linux (x86_64)
+Version 0.1.1, for Robot Raconteur 1.3. Supported platforms: Linux (x86_64)
 and Windows (x86_64, MinGW-w64). The native core is linked statically into
 Go programs through cgo.
 

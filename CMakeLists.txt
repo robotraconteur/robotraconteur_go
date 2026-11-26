@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 # Version of the Go bindings; keep in sync with Version in robotraconteur/version.go
-project(RobotRaconteurGo VERSION 0.1.0 LANGUAGES C CXX)
+project(RobotRaconteurGo VERSION 0.1.1 LANGUAGES C CXX)
 
 # Native part of the Robot Raconteur Go bindings (see README.md, "Building"):
 #   - libRobotRaconteurGoNative.a: the committed SWIG C++ wrapper
